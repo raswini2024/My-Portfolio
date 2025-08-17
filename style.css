@@ -1,0 +1,89 @@
+#id1{
+    color:white ;
+    display: flex;
+    gap: 50px;
+    font-size: larger;
+    margin-left: 150px;
+    
+}
+.addition{
+    background-color: #1c1c1c;
+}
+.new{
+    background-color:white;
+    height:300px;
+    width:70%;
+    margin-left: 18%;
+    margin-top: 8%;
+    border-radius: 30px;
+    text-indent: 40px;
+    padding:20px;
+
+}
+body{
+    background-color: black;
+}
+ul{
+    font-size: large;
+    text-indent: 20px;
+}
+.project{
+    background-color :white;
+    height:160px;
+    width:800px;
+    margin-left: 20%;
+    margin-top: 2%;
+    border-radius: 10px;
+    text-indent: 40px;
+    font-size: large;
+    padding: 10px;
+}
+.form{
+     background-color:white;
+    width:70%;
+    margin:4% auto;
+    margin-top: 4%;
+    border-radius: 30px;
+    padding:30px 30px;
+
+}
+input{
+    
+    height:30px;
+    width:700px;
+    border-radius:10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+textarea{
+    display:block;
+     border-radius:10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    height:150px;
+    width:700px;
+}
+label{
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-indent: 20px;
+    font-size: larger;   
+}
+button{
+    background-color: rgb(15, 171, 233);
+    margin-left:300px;
+    text-align: center;
+    height:50px;
+    width:300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: larger;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  padding: 20px;
+  background-color:#1c1c1c;
+}

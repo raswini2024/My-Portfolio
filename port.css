@@ -1,0 +1,128 @@
+#imgs{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-left:46%;
+    color:white;
+}
+.center{
+    justify-items: center;
+    align-items: center;
+    color:white;
+}
+.icons a{
+     margin: 20px;
+     
+  font-size: 30px;
+  color:white;   
+}
+.aa{
+    margin-top:60px;
+    margin-left:26%;
+    display: flex;
+    font-size: large;
+    gap: 40px;
+    color:white;
+    border-radius: 40px;
+      
+    
+}
+.tag{
+background-color:#1c1c1c;
+border-radius: 30px;
+}
+p{
+    font-size: large;
+    text-align: center;
+    text-transform: capitalize;
+    color:white;
+} 
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  padding: 20px;
+  background-color:#1c1c1c;
+}
+body{
+    background-color: black;
+}
+.h3_tag{
+text-align: center;
+margin-left: 50%;
+margin-top: 5%;
+border-radius: 40%;
+background-color: aqua;
+height: 50px;
+width:100px;
+}
+.download-btn {
+  display: inline-block;
+  background-color: #1e90ff; /* Blue color */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0d6efd; /* Darker blue on hover */
+}
+.resume{
+    text-align: center;
+}
+#id1{
+    color:white ;
+    display: flex;
+    gap: 50px;
+    font-size: larger;
+    margin-left: 150px;
+    
+}
+.addition{
+    background-color: #1c1c1c;
+}
+
+.clg{
+    color: black;
+    width: 800px;
+    height: 160px;
+    background-color:white;
+    box-shadow: #888;
+    margin-left: 300px;
+    border-radius: 30px;
+    text-indent: 40px;
+    padding: 10px;
+    font-size:large;
+    margin-bottom: 10px;
+    
+}
+.scl1{
+   color: black;
+    width: 800px;
+    height: 160px;
+    background-color:white;
+    box-shadow: #888;
+    margin-left: 300px;
+    border-radius: 30px;
+    text-indent: 40px;
+    padding: 10px;
+    font-size:large;
+    margin-bottom: 10px;
+}
+.scl2{
+   color: black;
+    width: 800px;
+    height: 160px;
+    background-color:white;
+    box-shadow: #888;
+    margin-left: 300px;
+    border-radius: 30px;
+    text-indent: 40px;
+    padding: 10px;
+    font-size:large;
+margin-bottom: 10px;}
