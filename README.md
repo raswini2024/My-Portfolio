@@ -36,8 +36,8 @@ Aswini_Resume.pdf # Resume file
 
 ## 📬 Contact
 - **Email:** raswini2024@gmail.com  
-- **LinkedIn:** (https://linkedin.com/in/aswini-r-931859326)(#)  
-- **GitHub:** (https://github.com/raswini2024)
+- **LinkedIn:** https://linkedin.com/in/aswini-r-931859326  
+- **GitHub:** https://github.com/raswini2024
 
 ---
 ✨ *Feel free to explore my portfolio and connect with me!*  
