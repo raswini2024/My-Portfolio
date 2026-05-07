@@ -2,7 +2,10 @@
 <html>
     <head><title>Certificate</title>
     <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>emailjs.init("GMNfQEEGbH92YX7tG");</script>
+    </head>
     <body><div class="addition">
         <div id="id1">
             <h4 onclick="location.href='index.html'" style="cursor: pointer;">
@@ -29,7 +32,6 @@
                 <i class="fas fa-tools"></i>
                 Skills
             <h4 onclick="location.href='contact.html'" style="cursor: pointer;">
-             
                 <i class="fas fa-envelope"></i>
                 Contact
             </h4>
@@ -40,16 +42,26 @@
         <h3 style="text-indent:10px"><i class="fas fa-address-book"></i> Address : Saraloor , Nagercoil , Kanyakumari District , TamilNadu</h3>
         <h3 style="text-indent:10px"><i class="fas fa-phone"></i> Phone : +91 9361319987</h3>
         <h3 style="text-indent:10px"><i class="fas fa-envelope"></i> Email : raswini2024@gmail.com</h3>
-        <form ><label><b>Your Name</b></label>
-        <input type="text" placeholder="Enter Your Name" required>
-        <label >   <b>Your Email</b></label>
-        <input type="email" placeholder="Enter Your Mail Id" required>
-        <label ><b>Your Message</b></label>
-        <textarea placeholder="Write Your Message " required></textarea>
-        <button style="cursor:pointer;" onclick="alert('Thank You For Conntacting Me !')">Send Message</button>
-            </form>
+        <form id="contactForm">
+            <label><b>Your Name</b></label>
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <label><b>Your Email</b></label>
+            <input type="email" name="email" placeholder="Enter Your Mail Id" required>
+            <label><b>Your Message</b></label>
+            <textarea name="message" placeholder="Write Your Message " required></textarea>
+            <button style="cursor:pointer;" type="button" onclick="sendEmail()">Send Message</button>
+        </form>
         </div>
          <div><footer>
            <p>© 2026 Aswini R | All Rights Reserved.</p>
-         </footer></div></body></html>
-        
+         </footer></div>
+
+<script>
+function sendEmail() {
+  emailjs.sendForm("service_the2dls", "template_2ly37zt", "#contactForm")
+    .then(() => alert("Message sent successfully! ✅"))
+    .catch(() => alert("Something went wrong. Try again."));
+}
+</script>
+
+</body></html>
