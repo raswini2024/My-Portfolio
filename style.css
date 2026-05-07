@@ -34,16 +34,16 @@ body{
 
 /* Projects */
 
-.project{
-    background-color:white;
-    width:60%;
-    margin:30px auto;
-    border-radius:15px;
-    padding:25px;
-    height:auto;
-    overflow:hidden;
-    line-height:1.8;
-    font-size:large;
+.project {
+    background-color: white;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 25px;
+    height: auto;
+    overflow: visible;  /* hidden → visible */
+    line-height: 1.8;
+    font-size: large;
 }
 
 .project h3{
