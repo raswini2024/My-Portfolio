@@ -39,9 +39,9 @@ body{
     width: 60%;
     margin: 30px auto;
     border-radius: 15px;
-    padding: 25px;
+    padding: 35px 25px 40px 25px;
     height: auto;
-    overflow: visible;  /* hidden → visible */
+    overflow:hidden;  /* hidden → visible */
     line-height: 1.8;
     font-size: large;
 }
